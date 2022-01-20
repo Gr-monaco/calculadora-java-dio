@@ -20,4 +20,24 @@ public class Calculadora {
     public float divisaoFloat(float A,float B){
         return A/B;
     }
+
+    public static void soma(double A, double B){
+        double result = A + B;
+        System.out.println(result);
+    }
+
+    public static void subtracao(double A, double B){
+        double result = A - B;
+        System.out.println(result);
+    }
+
+    public static void multiplicacao(double A, double B){
+        double result = A * B;
+        System.out.println(result);
+    }
+
+    public static void divisao(double A, double B){
+        double result = A / B;
+        System.out.println(result);
+    }
 }
