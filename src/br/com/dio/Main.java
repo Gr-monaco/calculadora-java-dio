@@ -3,6 +3,8 @@ package br.com.dio;
 import static br.com.dio.Calculadora.*;
 import static br.com.dio.Emprestimos.calcularEmprestimo;
 import static br.com.dio.Horario.horas;
+import static br.com.dio.Trapezios.area;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -34,9 +36,15 @@ public class Main {
         horas(24);
         horas(25);
 
+        //Teste de emprestimo
         calcularEmprestimo(1000,3);
         calcularEmprestimo(2000,2);
         calcularEmprestimo(3000,5);
+
+        //Teste de sobrecarga
+        area(5);
+        area(5,8);
+        area(9,2,5);
 
     }
 }
