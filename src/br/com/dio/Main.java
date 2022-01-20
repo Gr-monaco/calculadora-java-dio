@@ -1,7 +1,7 @@
 package br.com.dio;
 
 import static br.com.dio.Calculadora.*;
-
+import static br.com.dio.Horario.horas;
 public class Main {
 
     public static void main(String[] args) {
@@ -23,5 +23,14 @@ public class Main {
         subtracao(1,2);
         divisao(1,2);
         multiplicacao(1,3);
+
+        //Teste de horas
+        horas(1);
+        horas(12);
+        horas(13);
+        horas(18);
+        horas(19);
+        horas(24);
+        horas(25);
     }
 }
