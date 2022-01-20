@@ -1,6 +1,7 @@
 package br.com.dio;
 
 import static br.com.dio.Calculadora.*;
+import static br.com.dio.Emprestimos.calcularEmprestimo;
 import static br.com.dio.Horario.horas;
 public class Main {
 
@@ -32,5 +33,10 @@ public class Main {
         horas(19);
         horas(24);
         horas(25);
+
+        calcularEmprestimo(1000,3);
+        calcularEmprestimo(2000,2);
+        calcularEmprestimo(3000,5);
+
     }
 }
