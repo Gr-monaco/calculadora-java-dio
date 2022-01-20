@@ -4,6 +4,7 @@ import static br.com.dio.Calculadora.*;
 import static br.com.dio.Emprestimos.calcularEmprestimo;
 import static br.com.dio.Horario.horas;
 import static br.com.dio.Trapezios.area;
+import static br.com.dio.Trapezios.areaR;
 
 public class Main {
 
@@ -45,6 +46,14 @@ public class Main {
         area(5);
         area(5,8);
         area(9,2,5);
+
+        //teste de retorno
+        double aR = areaR(5);
+        double bR = areaR(5, 8);
+        double cR = areaR(9,2,5);
+
+        System.out.println(aR + " " + bR + " " + cR);
+
 
     }
 }
